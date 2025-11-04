@@ -1,16 +1,49 @@
-# React + Vite
+JARVIS – Task Tracker App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+JARVIS is a modern task management web application built using React and Tailwind CSS.
+It helps users add, edit, delete, and track tasks with a clean, futuristic UI inspired by a robotic theme.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✅ Add New Tasks – Create new tasks easily with a popup form.
 
-## React Compiler
+📝 Edit Existing Tasks – Update task details anytime.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+❌ Delete Tasks – Remove tasks that are no longer needed.
 
-## Expanding the ESLint configuration
+⚡ Mark as Complete – Toggle task status between pending and completed.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🔍 Filter Tasks – View All, Pending, or Completed tasks separately.
+
+💾 Local Storage Integration – Saves tasks locally; data persists on refresh.
+
+🎥 Animated Background – Dynamic robotic theme using looping background videos.
+
+📱 Responsive Design – Fully responsive across all devices.
+
+
+
+Installation
+
+- Clone the repository and install dependencies:
+
+git clone https://github.com/your-username/jarvis.git
+cd jarvis
+npm install
+
+
+- Run the app in development mode:
+
+npm run dev
+
+
+- Build for production:
+
+npm run build
+
+
+- Preview the production build:
+
+npm run preview
+
+
