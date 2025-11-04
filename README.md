@@ -22,28 +22,7 @@ It helps users add, edit, delete, and track tasks with a clean, futuristic UI in
 📱 Responsive Design – Fully responsive across all devices.
 
 
+Live Demo
 
-Installation
-
-- Clone the repository and install dependencies:
-
-git clone https://github.com/your-username/jarvis.git
-cd jarvis
-npm install
-
-
-- Run the app in development mode:
-
-npm run dev
-
-
-- Build for production:
-
-npm run build
-
-
-- Preview the production build:
-
-npm run preview
-
-
+🔗 Live Site: https://your-netlify-link.netlify.app
+⚠️ Note: The app may take a few seconds to load due to the high-resolution background videos.
