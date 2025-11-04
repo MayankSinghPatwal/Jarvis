@@ -66,7 +66,7 @@ export default function TaskList({ tasks, onEdit, onDelete, onToggle }) {
                 </div>
 
                 {/* Shortened description */}
-                <p className="text-sm text-gray-200 mt-3 line-clamp-3 overflow-hidden break-words leading-relaxed">
+                <p className="text-sm text-gray-200 mt-3 line-clamp-3 overflow-hidden wrap-break-words leading-relaxed">
                   {task.description}
                 </p>
               </div>

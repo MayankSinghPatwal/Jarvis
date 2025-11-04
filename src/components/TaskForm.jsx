@@ -39,7 +39,7 @@ export default function TaskForm({ onClose, onSave, editingTask }) {
   return (
     <div className="fixed inset-0 flex items-center justify-center bg-black/40 backdrop-blur-sm z-50">
       {/* Main popup container  */}
-      <div className="relative bg-gradient-to-br from-gray-900/80 via-gray-800/70 to-gray-900/80 border border-blue-500/30 backdrop-blur-2xl shadow-2xl rounded-2xl p-8 w-[90%] sm:w-[420px] text-white">
+      <div className="relative bg-linear-to-br from-gray-900/80 via-gray-800/70 to-gray-900/80 border border-blue-500/30 backdrop-blur-2xl shadow-2xl rounded-2xl p-8 w-[90%] sm:w-[420px] text-white">
         <h2 className="text-3xl font-bold mb-5 text-center text-blue-400 drop-shadow-md tracking-wide">
           {editingTask ? "Edit Task" : "Add New Task"}
         </h2>

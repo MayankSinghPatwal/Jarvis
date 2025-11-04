@@ -61,7 +61,7 @@ export default function HomePage() {
         {/* Add Task Button */}
         <button
           onClick={() => setIsFormOpen(true)}
-          className="px-6 py-2.5 rounded-lg bg-gradient-to-r from-blue-600 to-indigo-700 hover:from-blue-700 hover:to-indigo-800 font-bold text-white shadow-lg transition transform hover:scale-105"
+          className="px-6 py-2.5 rounded-lg bg-linear-to-r from-blue-600 to-indigo-700 hover:from-blue-700 hover:to-indigo-800 font-bold text-white shadow-lg transition transform hover:scale-105"
         >
           + Add Task
         </button>
